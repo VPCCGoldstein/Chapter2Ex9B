@@ -1,20 +1,43 @@
-// Chapter2Ex9B.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+/*
+* File Name:Chapter2Ex9B.cpp
+* Programmer: Mark Goldstein
+* Date:09/25
+* Requirements:
+You have been given a job as a programmer 
+on a Cyborg supercomputer. In order to accomplish some calculations, 
+you need to know how many bytes the following data types use:    and . 
+You do not have any technical documentation, so you can’t look this information up. Write a C++ program that will determine the amount of memory used 
+by these types and display the information on the screen.
+Find size of the various data types and output to screen.
+* 
+* 
+*/
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+	int number=1;
+	bool tf=false;
+	char alpha='c';
+	string phrase="This is a test";
+	float dec1=2.5;
+	double bigDec=3.1415911111111111111111;
+	cout << number << endl;
+	cout << tf << endl; ;
+	cout << alpha << endl;
+	cout << phrase << endl;
+	cout << dec1 << endl;;
+	cout << bigDec << endl;
+	cout <<sizeof(number)<<endl ;
+	cout << sizeof(tf) << endl; ;
+	cout << sizeof(alpha) << endl;
+	cout<< sizeof(phrase) << endl;
+	cout << sizeof(dec1)<< endl;;
+	cout << sizeof(bigDec)<< endl;
+
+   
+	
+	 
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
