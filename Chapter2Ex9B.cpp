@@ -23,12 +23,13 @@ int main()
 	string phrase="This is a test";
 	float dec1=2.5;
 	double bigDec=3.1415911111111111111111;
-	cout << number << endl;
+	/*cout << number << endl;
 	cout << tf << endl; ;
 	cout << alpha << endl;
 	cout << phrase << endl;
 	cout << dec1 << endl;;
 	cout << bigDec << endl;
+	*/
 	cout <<sizeof(number)<<endl ;
 	cout << sizeof(tf) << endl; ;
 	cout << sizeof(alpha) << endl;
